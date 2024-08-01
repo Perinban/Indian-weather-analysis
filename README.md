@@ -1126,753 +1126,142 @@ no. 1, pp. 1--23, 2024.
 **9) LITERATURE REVIEW TABLE SHOWING THE CONTRIBUTIONS OF VARIOUS
 AUTHORS**
 
-+----+---------+-------+---------+------+------+----------+---------+
-| Ye | Paper   | Paper | Dataset | M    | Res  | Contrib  | D       |
-| ar | Author  | Title | Used    | etho | ults | ution(s) | rawback |
-| P  | and Ci- |       |         | d(s) |      |          | /       |
-| ub |         |       |         | Used |      |          | Limita- |
-| li | tation  |       |         |      |      |          |         |
-| sh |         |       |         |      |      |          | tions   |
-| ed |         |       |         |      |      |          |         |
-+:===+:========+=======+:========+:=====+:=====+==========+=========+
-| 20 | Mishra  | C     | Weather | Ra   | RFA  | They     | They    |
-| 20 | t       | ontro |         | ndom |      | proposed | did not |
-|    | extitet | lling |         | For- | man  | how      | compare |
-|    | al.     | we    |         |      | aged | weather  | with    |
-|    | \[1\]   | ather |         | est  | to   | could be | other   |
-|    |         | depe  |         |      | give | used to  | models  |
-|    |         | ndent |         |      | good | affect   |         |
-|    |         | tasks |         |      |      | tasks    |         |
-|    |         | using |         |      | accu | like     |         |
-|    |         | r     |         |      | rate | ir       |         |
-|    |         | andom |         |      |      | rigation |         |
-|    |         |       |         |      | res  |          |         |
-|    |         | f     |         |      | ults |          |         |
-|    |         | orest |         |      | in   |          |         |
-|    |         | algo  |         |      |      |          |         |
-|    |         | rithm |         |      | wea  |          |         |
-|    |         |       |         |      | ther |          |         |
-|    |         |       |         |      |      |          |         |
-|    |         |       |         |      | for  |          |         |
-|    |         |       |         |      | ecas |          |         |
-|    |         |       |         |      | ting |          |         |
-|    |         |       |         |      |      |          |         |
-|    |         |       |         |      | in a |          |         |
-|    |         |       |         |      | s    |          |         |
-|    |         |       |         |      | hort |          |         |
-|    |         |       |         |      |      |          |         |
-|    |         |       |         |      | time |          |         |
-+----+---------+-------+---------+------+------+----------+---------+
-| 20 | Jain    | Ma    | NRSA    | Ra   | Ra   | Machine  | Lim     |
-| 20 | *et     | chine | Hy      | ndom | ndom | -learnng | ited-in |
-|    | al.*    | Lea   | derabad | For- | fo   | ag       | amounts |
-|    | \[2\]   | rning | weather |      | rest | ro-based | of      |
-|    |         | c     | dataset | est  | h    | solution | pr      |
-|    |         | onver | and     |      | elps | for      | actical |
-|    |         | gence | dataset |      | gene | custom   | proof   |
-|    |         | for   | of 10   |      | rate | tem      | of      |
-|    |         | wea   | crops   |      |      | perature | their   |
-|    |         | ther- |         |      | more | lands    | model   |
-|    |         | based |         |      | than |          |         |
-|    |         | crop  |         |      | one  |          |         |
-|    |         | sele  |         |      | crop |          |         |
-|    |         | ction |         |      | per  |          |         |
-|    |         |       |         |      | wea  |          |         |
-|    |         |       |         |      | ther |          |         |
-|    |         |       |         |      | of   |          |         |
-|    |         |       |         |      | the  |          |         |
-|    |         |       |         |      | land |          |         |
-+----+---------+-------+---------+------+------+----------+---------+
-| 20 | Singh   | We    | Hourly  | Ra   | Ra   | Low cost | Limited |
-| 19 | *et     | ather | record  | ndom | ndom | app      | c       |
-|    | al.*    |       | dataset | For- | fo   | lication | apacity |
-|    | \[4\]   | F     | of      |      | rest | of       | of the  |
-|    |         | oreca | hu      | est  | was  |          | sensors |
-|    |         | sting | midity, |      | able | machine  | to get  |
-|    |         |       | tempe   |      | to   | learning | a       |
-|    |         | Using | rature, |      | pre  |          | ccurate |
-|    |         | Ma    | rain    |      | dict |          | data to |
-|    |         | chine | and     |      | the  |          | use in  |
-|    |         |       | p       |      | pos  |          |         |
-|    |         | Lea   | ressure |      | sibi |          | pred    |
-|    |         | rning |         |      | lity |          | ictions |
-|    |         |       |         |      | of   |          |         |
-|    |         | Algo  |         |      | rain |          |         |
-|    |         | rithm |         |      | fal  |          |         |
-|    |         |       |         |      | ling |          |         |
-|    |         |       |         |      | or   |          |         |
-|    |         |       |         |      | not  |          |         |
-+----+---------+-------+---------+------+------+----------+---------+
-| 20 | Verma   | Wind  | weather | Li   | MLR  | Could be | Geograp |
-| 21 | *et     | Speed | record  | near | was  | easy to  | hically |
-|    | al.*    |       | with    |      | able | adopt    |         |
-|    | \[3\]   | Predi | Raipur, | Re   | to   | region   | focused |
-|    |         | ction | Chhat   | gres | fore | oriented | on one  |
-|    |         | of    | tisgarh | sion | cast | wind     |         |
-|    |         | Ce    | as the  |      | the  | pr       | l       |
-|    |         | ntral | r       |      | wind | ediction | ocation |
-|    |         | R     | esearch |      | s    | by       |         |
-|    |         | egion | site    |      | peed | studying |         |
-|    |         | of    |         |      |      | this     |         |
-|    |         | Ch    |         |      |      |          |         |
-|    |         | hatti |         |      |      | model    |         |
-|    |         | sgarh |         |      |      |          |         |
-|    |         | (I    |         |      |      |          |         |
-|    |         | ndia) |         |      |      |          |         |
-|    |         | Using |         |      |      |          |         |
-|    |         |       |         |      |      |          |         |
-|    |         | Artif |         |      |      |          |         |
-|    |         | icial |         |      |      |          |         |
-|    |         | N     |         |      |      |          |         |
-|    |         | eural |         |      |      |          |         |
-|    |         |       |         |      |      |          |         |
-|    |         | Ne    |         |      |      |          |         |
-|    |         | twork |         |      |      |          |         |
-|    |         | and   |         |      |      |          |         |
-|    |         |       |         |      |      |          |         |
-|    |         | Mul   |         |      |      |          |         |
-|    |         | tiple |         |      |      |          |         |
-|    |         | L     |         |      |      |          |         |
-|    |         | inear |         |      |      |          |         |
-|    |         |       |         |      |      |          |         |
-|    |         | Regre |         |      |      |          |         |
-|    |         | ssion |         |      |      |          |         |
-|    |         |       |         |      |      |          |         |
-|    |         | Techn |         |      |      |          |         |
-|    |         | ique: |         |      |      |          |         |
-|    |         | A     |         |      |      |          |         |
-|    |         |       |         |      |      |          |         |
-|    |         | C     |         |      |      |          |         |
-|    |         | ompar |         |      |      |          |         |
-|    |         | ative |         |      |      |          |         |
-|    |         |       |         |      |      |          |         |
-|    |         | Study |         |      |      |          |         |
-+----+---------+-------+---------+------+------+----------+---------+
-| 20 | Sarkar  | Ex    | Surface | Li   | Li   | This     | Focus   |
-| 14 | *et     | treme | wind    | near | near | could    | on      |
-|    | al.*    |       | data    |      | re   | help in  | mostly  |
-|    | \[5\]   | Wind  | sets of | Re   | gres | in       | linear  |
-|    |         | Cl    | Bay of  | gres | sion | creasing | reg     |
-|    |         | imate | Bengal  | sion | man  | safety   | ression |
-|    |         |       | was     |      | aged | in the   | only    |
-|    |         | Mod   | used    |      |      | Bay of   |         |
-|    |         | eling |         |      | to   | Bengal   |         |
-|    |         | of    |         |      | m    |          |         |
-|    |         |       |         |      | odel | area     |         |
-|    |         | Some  |         |      |      |          |         |
-|    |         | Loca  |         |      | accu |          |         |
-|    |         | tions |         |      | rate |          |         |
-|    |         | in    |         |      | pre  |          |         |
-|    |         | India |         |      | dict |          |         |
-|    |         | for   |         |      | ions |          |         |
-|    |         | the   |         |      |      |          |         |
-|    |         |       |         |      | as   |          |         |
-|    |         | Spe   |         |      | seen |          |         |
-|    |         | cific |         |      | on   |          |         |
-|    |         | ation |         |      | the  |          |         |
-|    |         |       |         |      | vis  |          |         |
-|    |         | of    |         |      | ual- |          |         |
-|    |         | the   |         |      |      |          |         |
-|    |         | D     |         |      | izat |          |         |
-|    |         | esign |         |      | ions |          |         |
-|    |         | Wind  |         |      |      |          |         |
-|    |         | Speed |         |      |      |          |         |
-|    |         | of    |         |      |      |          |         |
-|    |         |       |         |      |      |          |         |
-|    |         | Struc |         |      |      |          |         |
-|    |         | tures |         |      |      |          |         |
-+----+---------+-------+---------+------+------+----------+---------+
-| 20 | kumar   | G     | NASA    | Li   | With | A        | Model   |
-| 16 | *et     | enera | dataset | near | the  | com      | can not |
-|    | al.*    | lized | of      |      | incr | parative | be      |
-|    | \[7\]   |       | i       | Re   | ease | study of | rep     |
-|    |         | Regre | fferent | gres | in   | MLP and  | licated |
-|    |         | ssion | cities  | sion | ep   | GRNN     | due to  |
-|    |         |       | and     |      | ochs | model    | the     |
-|    |         | N     | their   |      | t    |          | train   |
-|    |         | eural | lo      |      | here |          | data    |
-|    |         | Ne    | cations |      | is   |          | source  |
-|    |         | twork | and     |      | an   |          |         |
-|    |         |       | weather |      | evi  |          |         |
-|    |         | Based | data    |      | dent |          |         |
-|    |         | Wind  |         |      | decr |          |         |
-|    |         |       |         |      | ease |          |         |
-|    |         | Speed |         |      | of   |          |         |
-|    |         | Predi |         |      |      |          |         |
-|    |         | ction |         |      | MSE  |          |         |
-|    |         |       |         |      |      |          |         |
-|    |         | Model |         |      |      |          |         |
-|    |         | For   |         |      |      |          |         |
-|    |         |       |         |      |      |          |         |
-|    |         | We    |         |      |      |          |         |
-|    |         | stern |         |      |      |          |         |
-|    |         | R     |         |      |      |          |         |
-|    |         | egion |         |      |      |          |         |
-|    |         |       |         |      |      |          |         |
-|    |         | Of    |         |      |      |          |         |
-|    |         | India |         |      |      |          |         |
-+----+---------+-------+---------+------+------+----------+---------+
-| 20 | Govind  | We    | 3       | Li   | The  | E        | Use of  |
-| 13 | *et     | ather | year's  | near | m    | xtensive | only 2  |
-|    | al.*    |       | data    | Re   | odel | research | models  |
-|    | \[8\]   | F     | from    | gres |      | into     | for     |
-|    |         | oreca | Indian  | sion | d    | re       | com     |
-|    |         | sting |         |      | evel | gression | parison |
-|    |         |       | Meteoro | and  | oped | te       |         |
-|    |         | Using | logical | ANN  |      | chniques |         |
-|    |         | Soft  |         |      | was  | for      |         |
-|    |         |       | Dep     |      | more | temp     |         |
-|    |         | Compu | artment |      | accu | eraturte |         |
-|    |         | ting: | (IMD)   |      | rate | pr       |         |
-|    |         | Mi    |         |      | for  | ediction |         |
-|    |         | nimum |         |      | the  |          |         |
-|    |         |       |         |      | wi   |          |         |
-|    |         | Te    |         |      | nter |          |         |
-|    |         | mpera |         |      | se   |          |         |
-|    |         | ture, |         |      | ason |          |         |
-|    |         |       |         |      | than |          |         |
-|    |         | Ma    |         |      | the  |          |         |
-|    |         | ximum |         |      | Mon  |          |         |
-|    |         |       |         |      | soon |          |         |
-|    |         | T     |         |      | se   |          |         |
-|    |         | emper |         |      | ason |          |         |
-|    |         | ature |         |      |      |          |         |
-|    |         | and   |         |      |      |          |         |
-|    |         |       |         |      |      |          |         |
-|    |         | Pre   |         |      |      |          |         |
-|    |         | ssure |         |      |      |          |         |
-+----+---------+-------+---------+------+------+----------+---------+
+| Year Published | Paper Author and Ci-
 
-+----+---------+--------+---------+----+---+------+--------+---------+
-| Ye | Paper   | Paper  | Dataset | M  |   | Res  | Con    | D       |
-| ar | Author  | Title  | Used    | et |   | ults | tribut | rawback |
-| P  | and Ci- |        |         | ho |   |      | ion(s) | /       |
-| ub |         |        |         | d( |   |      |        | Limita- |
-| li | tation  |        |         | s) |   |      |        |         |
-| sh |         |        |         | Us |   |      |        | tions   |
-| ed |         |        |         | ed |   |      |        |         |
-+:===+:========+:=======+=========+:===+:==+:=====+========+=========+
-| 20 | Chak    | Relati | NC      | Li |   | The  | Clear  | The     |
-| 15 | raborty | onship | EP/NCAR | ne |   | trop | and    | model   |
-|    | *et     |        | rea     | ar |   | ical | c      | can     |
-|    | al.*    | of     | nalysis |    |   | reg  | oncise | hardly  |
-|    | \[9\]   | conv   | data    | Re |   | ions | expla  | be      |
-|    |         | ective |         | gr |   |      | nation | ad      |
-|    |         |        |         | es |   | have | on the | aptable |
-|    |         | p      |         | si |   | a    | effect | to      |
-|    |         | recipi |         | on |   |      | of the | other   |
-|    |         | tation |         |    |   | c    | heat   | places  |
-|    |         | with   |         |    |   | orre |        | with    |
-|    |         | atmos  |         |    |   | lati | flux   | di      |
-|    |         | pheric |         |    |   | onal |        | fferent |
-|    |         | heat   |         |    |   | rela |        | weather |
-|    |         | flux   |         |    |   | tion |        |         |
-|    |         | --- A  |         |    |   | ship |        |         |
-|    |         | regr   |         |    |   | bet  |        |         |
-|    |         | ession |         |    |   | ween |        |         |
-|    |         | ap     |         |    |   | d    |        |         |
-|    |         | proach |         |    |   | iffe |        |         |
-|    |         | over   |         |    |   | rent |        |         |
-|    |         | an     |         |    |   | wea  |        |         |
-|    |         | Indian |         |    |   | ther |        |         |
-|    |         | tr     |         |    |   | pa   |        |         |
-|    |         | opical |         |    |   | rame |        |         |
-|    |         | lo     |         |    |   | ters |        |         |
-|    |         | cation |         |    |   | like |        |         |
-|    |         |        |         |    |   | heat |        |         |
-|    |         |        |         |    |   | and  |        |         |
-|    |         |        |         |    |   | eva  |        |         |
-|    |         |        |         |    |   | pora |        |         |
-|    |         |        |         |    |   | tion |        |         |
-+----+---------+--------+---------+----+---+------+--------+---------+
-| 20 | Sam     | M      | USEPA   | K  |   | The  | C      | The     |
-| 22 | inathan | achine | Air     | NN |   | m    | learly | amount  |
-|    | *et     |        | quality |    |   | odel | ou     | of      |
-|    | al.*    | Le     |         |    |   | was  | tlines | cities  |
-|    | \[6\]   | arning | index   |    |   | able | cit    | chosen  |
-|    |         |        | dataset |    |   | to   | y-wise | for     |
-|    |         | Appr   |         |    |   | pre  | health | refe    |
-|    |         | oaches |         |    |   | dict | h      | rencing |
-|    |         |        |         |    |   | the  | azards | are few |
-|    |         | Used   |         |    |   | most | like   |         |
-|    |         | for    |         |    |   | po   |        |         |
-|    |         | Air    |         |    |   | llut | h      |         |
-|    |         |        |         |    |   | ants | armful |         |
-|    |         | Q      |         |    |   |      | gases  |         |
-|    |         | uality |         |    |   | like |        |         |
-|    |         | For    |         |    |   | PM   |        |         |
-|    |         | ecast: |         |    |   | 2.5, |        |         |
-|    |         | A      |         |    |   |      |        |         |
-|    |         | Review |         |    |   | PM10 |        |         |
-+----+---------+--------+---------+----+---+------+--------+---------+
-| 20 | Aneesh  | Air    | Air     | K  |   | The  | Makes  | The     |
-| 23 | *et     | q      | po      | NN |   | c    | a      | models  |
-|    | al.*    | uality | llutant |    |   | once | clear  | used    |
-|    | \[10\]  |        | dataset |    |   | ntra |        | could   |
-|    |         | an     | from    |    |   | tion | comp   | not     |
-|    |         | alysis |         |    |   | of   | arison | handle  |
-|    |         |        | India   |    |   | P    |        | corre   |
-|    |         | and    | Con     |    |   | M2.5 | b      | lations |
-|    |         | PM2.5  | tinuous |    |   | was  | etween | between |
-|    |         | mod    |         |    |   | f    | MLR    | di      |
-|    |         | elling | Ambient |    |   | ound | and    | fferent |
-|    |         | using  | Air     |    |   | to   | KNN    | va      |
-|    |         | m      | Quality |    |   | be   | models | riables |
-|    |         | achine |         |    |   |      | in air |         |
-|    |         | le     | Mon     |    |   | e    | q      |         |
-|    |         | arning | itoring |    |   | xcee | uality |         |
-|    |         | techn  | S       |    |   | ding | pred   |         |
-|    |         | iques: | tations |    |   | no   | iction |         |
-|    |         |        |         |    |   | rmal | perfor |         |
-|    |         | A      |         |    |   | li   | mances |         |
-|    |         | study  |         |    |   | mits |        |         |
-|    |         | of     |         |    |   |      |        |         |
-|    |         |        |         |    |   |      |        |         |
-|    |         | Hyd    |         |    |   |      |        |         |
-|    |         | erabad |         |    |   |      |        |         |
-|    |         | city   |         |    |   |      |        |         |
-|    |         |        |         |    |   |      |        |         |
-|    |         | in     |         |    |   |      |        |         |
-|    |         | India  |         |    |   |      |        |         |
-+----+---------+--------+---------+----+---+------+--------+---------+
-| 20 | Kumar   | Air    | Air     | KN |   | XGB  | Due to | It      |
-| 22 | *et     | pol    | po      | N, |   | oost | the    | focuses |
-|    | al.*    | lution | llution |    |   | as   | the    | very    |
-|    | \[12\]  | pred   | data    | Ga |   | an   | way    | much on |
-|    |         | iction | ex      | us |   | ove  | the    | some    |
-|    |         | with   | tracted | si |   | rall | model  | e       |
-|    |         | m      | from    | an |   |      | was    | xisting |
-|    |         | achine | the     |    |   | prov | t      | pol     |
-|    |         | lea    | Central | N  |   | ided | rained | lutants |
-|    |         | rning: | Po      | ai |   | more | over   | which   |
-|    |         | a case | llution | ve |   |      | hist   | could   |
-|    |         | study  | Control | B  |   | accu | orical | limit   |
-|    |         | of     |         | ay |   | rate | data,  | the     |
-|    |         | Indian | Board   | es |   |      | it is  | scope   |
-|    |         | cities |         |    |   | re   | easy   | of this |
-|    |         |        |         | (G |   | sult | to     | r       |
-|    |         |        |         | NB |   | than | deploy | esearch |
-|    |         |        |         | ), |   | o    | it     |         |
-|    |         |        |         |    |   | ther | els    |         |
-|    |         |        |         | SV |   | mo   | ewhere |         |
-|    |         |        |         | M, |   | dels |        |         |
-|    |         |        |         | R  |   |      |        |         |
-|    |         |        |         | F, |   |      |        |         |
-|    |         |        |         |    |   |      |        |         |
-|    |         |        |         | X  |   |      |        |         |
-|    |         |        |         | GB |   |      |        |         |
-|    |         |        |         | oo |   |      |        |         |
-|    |         |        |         | st |   |      |        |         |
-+----+---------+--------+---------+----+---+------+--------+---------+
-| 20 | Pradeep | Mo     | The     | XG |   | With | Made   | It is   |
-| 24 | *et     | deling | dataset | -B |   |      | model  | hard to |
-|    | al.*    | and    | on      | oo |   | XGBo | diffe  | deal    |
-|    | \[11\]  |        | r       | st |   | ost, | rences | with    |
-|    |         | forec  | ainfall |    |   | it   | in     | re      |
-|    |         | asting | in      |    |   | outp | ra     | al-time |
-|    |         |        | India   |    |   | erfo | infall | data    |
-|    |         | ra     | from    |    |   | rmed | predi  | and     |
-|    |         | infall |         |    |   | o    | ctions | apply   |
-|    |         | pa     | 1993 to |    |   | ther | with   | the     |
-|    |         | tterns | 2022    |    |   |      | ARIMA, | model   |
-|    |         | in     |         |    |   | ML   | SSM,   | at the  |
-|    |         | India: |         |    |   | mo   | SVM,   |         |
-|    |         | a time |         |    |   | dels | ANN,   | same    |
-|    |         | series |         |    |   | like |        | time    |
-|    |         | an     |         |    |   | ANN  | RF and |         |
-|    |         | alysis |         |    |   | in   | X      |         |
-|    |         | with   |         |    |   | pat  | GBoost |         |
-|    |         | X      |         |    |   | tern |        |         |
-|    |         | GBoost |         |    |   |      |        |         |
-|    |         |        |         |    |   | obs  |        |         |
-|    |         | alg    |         |    |   | erva |        |         |
-|    |         | orithm |         |    |   | tion |        |         |
-+----+---------+--------+---------+----+---+------+--------+---------+
-| 20 | X       | Pred   | Re      | XG |   | The  | Their  | It is   |
-| 19 | iaoming | iction | al-time | -B |   | m    | model  | limited |
-|    | *et     | of     | weather | oo |   | odel | could  | to a    |
-|    | al.*    | o      | co      | st |   | man  | help   | short   |
-|    | \[13\]  | utdoor | llected |    |   | ages | in     | time    |
-|    |         | air    | data of |    |   | to   | short  | pre     |
-|    |         | tempe  |         |    |   |      | notice | diction |
-|    |         | rature | S       |    |   | ac   | w      | with    |
-|    |         | and    | henzen, |    |   | cura | eather | more    |
-|    |         | hu     | China   |    |   | tely | pred   | a       |
-|    |         | midity |         |    |   | pre  | iction | ccuracy |
-|    |         | using  |         |    |   | dict |        |         |
-|    |         | X      |         |    |   |      |        |         |
-|    |         | gboost |         |    |   | min  |        |         |
-|    |         |        |         |    |   | imum |        |         |
-|    |         |        |         |    |   | out  |        |         |
-|    |         |        |         |    |   | door |        |         |
-|    |         |        |         |    |   | air  |        |         |
-|    |         |        |         |    |   | humi |        |         |
-|    |         |        |         |    |   | dity |        |         |
-|    |         |        |         |    |   |      |        |         |
-|    |         |        |         |    |   | with |        |         |
-|    |         |        |         |    |   | l    |        |         |
-|    |         |        |         |    |   | ower |        |         |
-|    |         |        |         |    |   | RMSE |        |         |
-|    |         |        |         |    |   | for  |        |         |
-|    |         |        |         |    |   | le   |        |         |
-|    |         |        |         |    |   | sser |        |         |
-|    |         |        |         |    |   | time |        |         |
-|    |         |        |         |    |   | fra  |        |         |
-|    |         |        |         |    |   | mes. |        |         |
-+----+---------+--------+---------+----+---+------+--------+---------+
-| 20 | Apaydin | Eval   | Bias    | XG |   | XGB  | A      | This    |
-| 22 | *et     | uation | Cor     | -B |   | oost | model  | dataset |
-|    | al.*    | of air | rection | oo |   |      |        | does    |
-|    | \[14\]  | tempe  | of      | st |   | outp | compa  | not     |
-|    |         | rature |         | ,  |   | erfo | rative | take    |
-|    |         | with   | Nu      |    |   | rmed |        | geogr   |
-|    |         | m      | merical | K  |   | o    | ap     | aphical |
-|    |         | achine | Pre     | NN |   | ther | proach | lo      |
-|    |         | le     | diction | ,  |   | mo   | that   | cations |
-|    |         | arning |         | A  |   | dels | helps  | in      |
-|    |         | regr   | Model   | NN |   | a    | weigh  | consid  |
-|    |         | ession | Temp    |    |   | long | m      | eration |
-|    |         | m      | erature |    |   | side | achine |         |
-|    |         | ethods |         |    |   |      | le     |         |
-|    |         | using  | F       |    |   | one  | arning |         |
-|    |         | Seoul  | orecast |    |   | more | models |         |
-|    |         | City   |         |    |   | m    |        |         |
-|    |         | me     |         |    |   | odel |        |         |
-|    |         | teorol |         |    |   | as   |        |         |
-|    |         | ogical |         |    |   | they |        |         |
-|    |         | data   |         |    |   | get  |        |         |
-|    |         |        |         |    |   | the  |        |         |
-|    |         |        |         |    |   | hig  |        |         |
-|    |         |        |         |    |   | hest |        |         |
-|    |         |        |         |    |   | R    |        |         |
-|    |         |        |         |    |   |      |        |         |
-|    |         |        |         |    |   | squ  |        |         |
-|    |         |        |         |    |   | ared |        |         |
-+----+---------+--------+---------+----+---+------+--------+---------+
+tation | Paper Title                                                                                                                                                                                       | Dataset Used                                                         | Method(s) Used             | Results                                                                                                                                                       | Contribution(s)                                                                      | Drawback   /   Limita-
 
-+-------+-------+-------+--------+--------+--------+--------+--------+
-| Year  | Paper | Paper | D      | Met    | R      | Con    | Dr     |
-| Publ  | A     | Title | ataset | hod(s) | esults | tribut | awback |
-| ished | uthor |       | Used   | Used   |        | ion(s) | /      |
-|       | and   |       |        |        |        |        | L      |
-|       | Ci-   |       |        |        |        |        | imita- |
-|       |       |       |        |        |        |        |        |
-|       | t     |       |        |        |        |        | tions  |
-|       | ation |       |        |        |        |        |        |
-+:======+:======+=======+========+:=======+:=======+========+========+
-| 2022  | Deng  | B     | Sh     | XG     | Both   | Cr     | BG-XG  |
-|       | *et   | aggin | anghai | -Boost | BG and | eation | model  |
-|       | al.*  | g--XG | transf |        | X      | of an  | takes  |
-|       | \     | Boost | ormers |        | GBoost | e      | a long |
-|       | [15\] | algo  | load   |        | return | xtreme | time   |
-|       |       | rithm | data   |        | short  | w      | to     |
-|       |       | based |        |        |        | eather | train  |
-|       |       | ex    |        |        | d      |        | and is |
-|       |       | treme |        |        | iffere | id     | hard   |
-|       |       | we    |        |        | ntials | entifi | to     |
-|       |       | ather |        |        |        | cation | deploy |
-|       |       |       |        |        | in     | system |        |
-|       |       | iden  |        |        | terms  |        |        |
-|       |       | tific |        |        | of     |        |        |
-|       |       | ation |        |        | fo     |        |        |
-|       |       |       |        |        | recast |        |        |
-|       |       | and   |        |        |        |        |        |
-|       |       | short |        |        | acc    |        |        |
-|       |       | -term |        |        | uracy, |        |        |
-|       |       | load  |        |        | X      |        |        |
-|       |       | f     |        |        | GBoost |        |        |
-|       |       | oreca |        |        | coming |        |        |
-|       |       | sting |        |        | off    |        |        |
-|       |       | model |        |        | sl     |        |        |
-|       |       |       |        |        | ightly |        |        |
-|       |       |       |        |        | short  |        |        |
-+-------+-------+-------+--------+--------+--------+--------+--------+
-| 2024  | Bushe | To    | Madrid | XG     | X      | The    | This   |
-|       | nkova | wards | c      | -Boost | GBoost | model  | re     |
-|       | *et*  | an    | limate |        |        | can be | search |
-|       |       | imp   | d      |        | better | a      | meets  |
-|       | *al.* | roved | ataset |        |        | dopted | limit  |
-|       | \     | repr  | from   |        | des    | to     | ations |
-|       | [16\] | esent | 2000   |        | cribes | other  | rev    |
-|       |       | ation | to     |        |        | cities | olving |
-|       |       | of    | 2022   |        | the    | to     | around |
-|       |       | the   | from   |        | city's | comp   | l      |
-|       |       | urban | Eu     |        |        | rehend | imited |
-|       |       | heat  | ropean |        | S      | their  | re     |
-|       |       | i     | C      |        | urface | urban  | search |
-|       |       | sland | limate |        |        | cli    | in air |
-|       |       | e     | Asse   |        | Urban  | mates. | and    |
-|       |       | ffect | ssment |        | Heat   | Not    | s      |
-|       |       | : A   | and    |        |        | just   | urface |
-|       |       | multi | Datas  |        | Island | i      | temper |
-|       |       | scale | et(ECA |        | effect | slands | atures |
-|       |       | a     | and    |        |        | but    |        |
-|       |       | pplic |        |        |        | inland |        |
-|       |       | ation | D\)    |        |        | and    |        |
-|       |       | of    |        |        |        | c      |        |
-|       |       | XG    |        |        |        | oastal |        |
-|       |       | Boost |        |        |        | areas  |        |
-|       |       | for   |        |        |        | too    |        |
-|       |       | m     |        |        |        |        |        |
-|       |       | adrid |        |        |        |        |        |
-+-------+-------+-------+--------+--------+--------+--------+--------+
-| 2021  | Kr    | An    | Air    | KNN    | KNN    | The    | PM2.5  |
-|       | ishna | imp   | q      |        | imple- | model  | measur |
-|       | *et   | roved | uality |        |        | en     | ements |
-|       | al.*  |       | d      |        | ment   | hances | are    |
-|       | \     | poll  | ataset |        | ations | PM2.5  | easily |
-|       | [17\] | ution | from   |        | r      | fo     | af     |
-|       |       |       | C      |        | eveals | recast | fected |
-|       |       | f     | entral |        | low    | by     | by     |
-|       |       | oreca | Pol    |        |        |        | me     |
-|       |       | sting | lution |        | RMSE,  | com    | teorol |
-|       |       |       | C      |        |        | puting | ogical |
-|       |       | model | ontrol |        | MAE,   |        | fea    |
-|       |       | with  | Board  |        | MAPE   | P      | tures, |
-|       |       |       |        |        |        | earson | l      |
-|       |       | mete  |        |        | error  | corre  | eading |
-|       |       | orolo |        |        | values | lation | to     |
-|       |       | gical |        |        |        | coeff  | more   |
-|       |       |       |        |        | m      | icient | inaccu |
-|       |       | i     |        |        | eaning |        | racies |
-|       |       | mpact |        |        |        |        |        |
-|       |       | using |        |        | better |        |        |
-|       |       |       |        |        | ac     |        |        |
-|       |       | mul   |        |        | curacy |        |        |
-|       |       | tiple |        |        |        |        |        |
-|       |       |       |        |        |        |        |        |
-|       |       | imput |        |        |        |        |        |
-|       |       | ation |        |        |        |        |        |
-|       |       | and   |        |        |        |        |        |
-|       |       | f     |        |        |        |        |        |
-|       |       | ine-t |        |        |        |        |        |
-|       |       | uning |        |        |        |        |        |
-|       |       | app   |        |        |        |        |        |
-|       |       | roach |        |        |        |        |        |
-+-------+-------+-------+--------+--------+--------+--------+--------+
-| 2022  | Zhao  | A     | Da     | KNN    | PM2.5, | This   | Poll   |
-|       | *et   | s     | tasets |        | PM10   | model  | utants |
-|       | al.*  | tatis | used   |        | and    | can    | are    |
-|       | \     | tical | are    |        | other  | help   | not    |
-|       | [18\] |       | daily  |        |        | in the | always |
-|       |       | lea   | AQI    |        | poll   |        | pr     |
-|       |       | rning | data   |        | utants | devel  | oduced |
-|       |       |       | from   |        | were   | opment | in a   |
-|       |       | fram  | 34     |        | accu   |        | d      |
-|       |       | ework | moni   |        | rately | of     | efined |
-|       |       | for   | toring |        | pre    | pol    | str    |
-|       |       |       | sites  |        | dicted | lution | ucture |
-|       |       | s     | in     |        |        |        | m      |
-|       |       | patia |        |        | with   | mana   | eaning |
-|       |       | l-tem | Y      |        | their  | gement | predi  |
-|       |       | poral | angtze |        |        | me     | ctions |
-|       |       | fe    | River  |        | c      | asures | could  |
-|       |       | ature | Delta  |        | oncent |        | be     |
-|       |       | sele  |        |        | ration |        | err    |
-|       |       | ction |        |        | loc    |        | oneous |
-|       |       | and   |        |        | ations |        |        |
-|       |       | a     |        |        |        |        |        |
-|       |       | pplic |        |        |        |        |        |
-|       |       | ation |        |        |        |        |        |
-|       |       | to    |        |        |        |        |        |
-|       |       | air   |        |        |        |        |        |
-|       |       | qu    |        |        |        |        |        |
-|       |       | ality |        |        |        |        |        |
-|       |       |       |        |        |        |        |        |
-|       |       | index |        |        |        |        |        |
-|       |       | f     |        |        |        |        |        |
-|       |       | oreca |        |        |        |        |        |
-|       |       | sting |        |        |        |        |        |
-+-------+-------+-------+--------+--------+--------+--------+--------+
-| 2019  | Yang  | A     | Sh     | KNN    | The    | The    | C      |
-|       | *et   | pplic | anghai |        |        | c      | luster |
-|       | al.*  | ation |        |        | im     | luster | based  |
-|       | \     | of    | Me     |        | proved | -based | KNN    |
-|       | [19\] |       | teorol |        |        |        | models |
-|       |       | Imp   | ogical |        | KNN    | KNN    | would  |
-|       |       | roved |        |        | model  | model  | get a  |
-|       |       | KNN   | Moni   |        | shows  | r      | hard   |
-|       |       |       | toring |        | an     | educes | time   |
-|       |       | Algo  | w      |        | o      | time   | de     |
-|       |       | rithm | ebsite |        | verall | and    | ployed |
-|       |       | in    |        |        |        | inc    | on     |
-|       |       |       | air    |        | ac     | reases | huge   |
-|       |       | Air   | data   |        | curacy |        | data   |
-|       |       | Qu    |        |        | of     | perfo  |        |
-|       |       | ality |        |        |        | rmance |        |
-|       |       |       |        |        | poll   |        |        |
-|       |       | Asses |        |        | utants |        |        |
-|       |       | sment |        |        |        |        |        |
-|       |       |       |        |        | than   |        |        |
-|       |       |       |        |        | the    |        |        |
-|       |       |       |        |        |        |        |        |
-|       |       |       |        |        | tradi  |        |        |
-|       |       |       |        |        | tional |        |        |
-|       |       |       |        |        |        |        |        |
-|       |       |       |        |        | KNN    |        |        |
-|       |       |       |        |        | with a |        |        |
-|       |       |       |        |        | diff   |        |        |
-|       |       |       |        |        | erence |        |        |
-|       |       |       |        |        | of     |        |        |
-|       |       |       |        |        | 4.11   |        |        |
-|       |       |       |        |        |        |        |        |
-|       |       |       |        |        | perc   |        |        |
-|       |       |       |        |        | entage |        |        |
-+-------+-------+-------+--------+--------+--------+--------+--------+
-| 2021  | M     | We    | Global | Random | T      | Re     | It is  |
-|       | eenal | ather | solar  | For-   | Random | search | ge     |
-|       | *et   | predi | rad    |        |        | pr     | ograph |
-|       | al.*  | ction | iation | est    | Forest | oposes | ically |
-|       | \     | using | data   |        | helps  | a cost | locked |
-|       | [20\] | r     | rec    |        | fo     | eff    | in     |
-|       |       | andom | ording |        | recast | ective | Tamil  |
-|       |       | f     | hourly |        |        | pred   | Nadu   |
-|       |       | orest | data   |        | April  | iction | and    |
-|       |       | ma    | from   |        | as the | model  | does   |
-|       |       | chine | IMD,   |        | month  | that   | not    |
-|       |       | lea   | Pune   |        | with   | does   | show a |
-|       |       | rning |        |        | the    | not    | wider  |
-|       |       | model |        |        | h      | r      | depl   |
-|       |       |       |        |        | ighest | equire | oyment |
-|       |       |       |        |        | solar  | much   |        |
-|       |       |       |        |        | Rad    | to     |        |
-|       |       |       |        |        | iation | imp    |        |
-|       |       |       |        |        | in     | lement |        |
-|       |       |       |        |        | Tamil  |        |        |
-|       |       |       |        |        | Nadu   |        |        |
-+-------+-------+-------+--------+--------+--------+--------+--------+
+tions                                               |
+| -------------- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------- |
+| 2020           | Mishra textitet al. [1]      | Controlling weather dependent tasks using random
 
-+----+---------+--------+---------+------+--------+--------+---------+
-| Ye | Paper   | Paper  | Dataset | M    | R      | Con    | D       |
-| ar | Author  | Title  | Used    | etho | esults | tribut | rawback |
-| P  | and Ci- |        |         | d(s) |        | ion(s) | /       |
-| ub |         |        |         | Used |        |        | Limita- |
-| li | tation  |        |         |      |        |        |         |
-| sh |         |        |         |      |        |        | tions   |
-| ed |         |        |         |      |        |        |         |
-+:===+:========+:=======+=========+:=====+:=======+========+=========+
-| 20 | Roshani | Ana    | Time    | Ra   | An     | The    | The     |
-| 22 | *et     | lyzing | series  | ndom | ob     | pr     | rate at |
-|    | al.*    | trend  | dataset | For- | served | oposed | which   |
-|    | \[21\]  | and    | from    |      |        | model  | climate |
-|    |         | fo     | 1981 to | est  | dec    | having | has     |
-|    |         | recast | 2020    |      | lining |        | evolved |
-|    |         | of     |         |      |        | cons   | does    |
-|    |         | ra     |         |      | trend  | idered | not     |
-|    |         | infall |         |      | in     |        | reflect |
-|    |         | and    |         |      |        | all    | the     |
-|    |         | tempe  |         |      | ra     | pred   | trend   |
-|    |         | rature |         |      | infall | iction | from    |
-|    |         |        |         |      |        | eval   | 1980s   |
-|    |         | in     |         |      | amount | uation | to      |
-|    |         | V      |         |      | in the | m      |         |
-|    |         | almiki |         |      | years  | etrics | 2020    |
-|    |         |        |         |      |        | can be |         |
-|    |         | Tiger  |         |      | 2021   | used   |         |
-|    |         | Re     |         |      | to     | in     |         |
-|    |         | serve, |         |      |        | other  |         |
-|    |         | India, |         |      | 2030   | geogra |         |
-|    |         | using  |         |      |        | phical |         |
-|    |         | no     |         |      |        | loc    |         |
-|    |         | n-para |         |      |        | ations |         |
-|    |         | metric |         |      |        | too    |         |
-|    |         |        |         |      |        |        |         |
-|    |         | test   |         |      |        |        |         |
-|    |         | and    |         |      |        |        |         |
-|    |         | random |         |      |        |        |         |
-|    |         | forest |         |      |        |        |         |
-|    |         | m      |         |      |        |        |         |
-|    |         | achine |         |      |        |        |         |
-|    |         | le     |         |      |        |        |         |
-|    |         | arning |         |      |        |        |         |
-|    |         | alg    |         |      |        |        |         |
-|    |         | orithm |         |      |        |        |         |
-+----+---------+--------+---------+------+--------+--------+---------+
-| 20 | Mahale  | Crop   | 2001 to | Ra   | Among  | With   | The     |
-| 24 | *et     | re     | 2022    | ndom | the    | an     | same    |
-|    | al.*    | commen | India   | For- |        | ap     | model   |
-|    | \[22\]  | dation |         |      | co     | proach | can     |
-|    |         | and    | Meteoro | est  | mpared | that   | hardly  |
-|    |         | forec  | logical |      | m      | tests  | be      |
-|    |         | asting |         |      | odels, | dif    | applied |
-|    |         | system | Dep     |      | Random | ferent | in      |
-|    |         | for    | artment |      |        | m      | places  |
-|    |         |        | weather |      | Forest | odels, | with    |
-|    |         | Mahar  |         |      |        | This   | low     |
-|    |         | ashtra | Dataset |      | showed | re     | data    |
-|    |         |        |         |      |        | search |         |
-|    |         | using  |         |      | a 91.8 | could  | preser  |
-|    |         | m      |         |      |        | be     | vations |
-|    |         | achine |         |      | perc   | a      |         |
-|    |         | le     |         |      | entage | pplied |         |
-|    |         | arning |         |      | best   | in     |         |
-|    |         | with   |         |      |        | other  |         |
-|    |         | LSTM:  |         |      | ac     | areas. |         |
-|    |         | a      |         |      | curacy | It     |         |
-|    |         | novel  |         |      |        | also   |         |
-|    |         |        |         |      | in     | helps  |         |
-|    |         | expec  |         |      | crop   | in     |         |
-|    |         | tation |         |      |        | bet    |         |
-|    |         | maximi |         |      | re     | tering |         |
-|    |         | zation |         |      | commen | the    |         |
-|    |         | tec    |         |      | dation | agric  |         |
-|    |         | hnique |         |      |        | ulture |         |
-|    |         |        |         |      |        | s      |         |
-|    |         |        |         |      |        | ector. |         |
-+----+---------+--------+---------+------+--------+--------+---------+
-| 20 | Yahdin  | Combi  | Jakarta | KNN  | Their  | The    | It is   |
-| 22 | *et     | nation | API     |      | pr     | re     | hard to |
-|    | al.*    |        | dataset |      | oposed | search | compute |
-|    | \[23\]  | of KNN | for     |      | m      | proves | and     |
-|    |         | and    | 2017 to |      | odel's | that   | deploy  |
-|    |         |        | 2019    |      | ac     | KNNPSO | c       |
-|    |         | Pa     |         |      | curacy | r      | ompared |
-|    |         | rticle |         |      |        | eturns | to      |
-|    |         | Swarm  |         |      | was    | high   | trad    |
-|    |         |        |         |      | 98.8   | prec   | itional |
-|    |         | Optimi |         |      |        | ision, |         |
-|    |         | zation |         |      | perc   | recall | KNN     |
-|    |         |        |         |      | entage | and    | model   |
-|    |         | (PSO)  |         |      |        | high   |         |
-|    |         | on     |         |      | with a | ac     |         |
-|    |         |        |         |      | high   | curacy |         |
-|    |         | Air    |         |      |        | in air |         |
-|    |         | Q      |         |      | pre    | q      |         |
-|    |         | uality |         |      | cision | uality |         |
-|    |         |        |         |      | co     |        |         |
-|    |         | Pred   |         |      | mpared | predi  |         |
-|    |         | iction |         |      |        | ctions |         |
-|    |         |        |         |      | to the |        |         |
-|    |         |        |         |      | other  |        |         |
-|    |         |        |         |      |        |        |         |
-|    |         |        |         |      | s      |        |         |
-|    |         |        |         |      | tudied |        |         |
-|    |         |        |         |      |        |        |         |
-|    |         |        |         |      | models |        |         |
-|    |         |        |         |      | on     |        |         |
-|    |         |        |         |      |        |        |         |
-|    |         |        |         |      | the    |        |         |
-|    |         |        |         |      | paper  |        |         |
-+----+---------+--------+---------+------+--------+--------+---------+
-| 20 | Sunitha | F      | 4 year  | li   | I      | Corre  | Scope   |
-| 21 | *et     | inding | record  | near | ntense | lation | of      |
-|    | al.*    | Re     | dataset | re   |        | b      | r       |
-|    | \[24\]  | lation | from    | gres | hu     | etween | esearch |
-|    |         |        | DAV BDL | sion | midity | dif    | is      |
-|    |         | B      | pub-    |      |        | ferent | small   |
-|    |         | etween |         |      | is     | w      | as the  |
-|    |         |        | lic     |      | equal  | eather | outputs |
-|    |         | Para   | school  |      | to the | para   | are     |
-|    |         | meters |         |      | actual | meters | limited |
-|    |         | of     |         |      | tempe  | and    | too     |
-|    |         | W      |         |      | rature | their  |         |
-|    |         | eather |         |      |        | pred   |         |
-|    |         | Data   |         |      | and    | iction |         |
-|    |         | Using  |         |      | air is | models |         |
-|    |         | Linear |         |      | always |        |         |
-|    |         |        |         |      |        |        |         |
-|    |         | Regr   |         |      | sat    |        |         |
-|    |         | ession |         |      | urated |        |         |
-|    |         | Method |         |      | with   |        |         |
-|    |         |        |         |      | water  |        |         |
-+----+---------+--------+---------+------+--------+--------+---------+
+forest algorithm                                                                                                                                | Weather                                                              | Random For-
+
+est           | RFA
+
+managed to give good
+
+accurate
+
+results       in
+
+weather
+
+forecasting
+
+in     a    short
+
+time                                                          | They proposed how weather could be used to affect tasks like irrigation              | They did not compare with other models                                      |
+| 2020           | Jain _et al._ [2]            | Machine Learning convergence for weather-based crop selection                                                                                                                                     | NRSA Hyderabad weather dataset and dataset of 10 crops               | Random For-
+
+est           | Random forest                  helps generate
+
+more                  than one crop per weather                  of the land                                   | Machine-learnng agro-based solution for custom temperature lands                     | Limited-in  amounts of practical proof of their model                       |
+| 2019           | Singh _et al._ [4]           | Weather
+
+Forecasting
+
+Using     Machine
+
+Learning
+
+Algorithm                                                                                                                                      | Hourly record dataset of humidity, temperature, rain and pressure    | Random For-
+
+est           | Random forest                  was able                  to predict                  the possibility of rain                  falling or not                  | Low            cost application of
+
+machine learning                                 | Limited capacity of the sensors to get accurate data to use in
+
+predictions |
+| 2021           | Verma _et al._ [3]           | Wind         Speed
+
+Prediction of Central Region of Chhattisgarh (India) Using
+
+Artificial    Neural
+
+Network        and
+
+Multiple    Linear
+
+Regression
+
+Technique:        A
+
+Comparative
+
+Study | weather record with Raipur, Chhattisgarh as the research site        | Linear
+
+Regression         | MLR was able                  to forecast the wind speed                                                                                                      | Could be easy to adopt regionoriented wind prediction by studying this
+
+model        | Geographically
+
+focused       on     one
+
+location                          |
+| 2014           | Sarkar _et al._ [5]          | Extreme
+
+Wind       Climate
+
+Modeling         of
+
+Some Locations in India for the
+
+Specification
+
+of the Design Wind Speed of
+
+Structures                                                         | Surface wind data sets of Bay of Bengal was used                     | Linear
+
+Regression         | Linear regression managed
+
+to        model
+
+accurate predictions
+
+as seen on the visual-
+
+izations                                                            | This could help in increasing safety in the Bay of Bengal
+
+area                      | Focus on mostly linear regression only                                      |
+| 2016           | kumar _et al._ [7]           | Generalized
+
+Regression
+
+Neural   Network
+
+Based         Wind
+
+Speed Prediction
+
+Model            For
+
+Western   Region
+
+Of India                                                                 | NASA dataset of ifferent cities and their locations and weather data | Linear
+
+Regression         | With the increase in epochs there is an evident decrease of
+
+MSE                                                                                              | A                  comparative study of MLP and GRNN model                           | Model can not be replicated due to the train data source                    |
+| 2013           | Govind _et al._ [8]          | Weather
+
+Forecasting
+
+Using            Soft
+
+Computing: Minimum
+
+Temperature,
+
+Maximum
+
+Temperature and
+
+Pressure                                                                                 | 3 year’s data from Indian
+
+Meteorological
+
+Department (IMD)          | Linear Regression
+
+and ANN | The     model
+
+developed
+
+was                  more accurate                  for the                  winter season                  than the Monsoon season | Extensive research into            regression techniques for temperaturte prediction | Use of only 2 models for comparison                                         |

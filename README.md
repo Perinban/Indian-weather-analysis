@@ -1,5 +1,53 @@
 <h1> INDIAN WEATHER DATA ANALYSIS </h1>
 
+** DATA SOURCES **
+
+<table border="0" cellpadding="0" cellspacing="0" width="1518" style="">
+  <thead>
+    <tr height="23" style="height: 17pt;">
+      <th>Document Name</th>
+      <th>Details</th>
+      <th>Reference Link</th>
+    </tr>
+  </thead><colgroup><col width="272" style="width: 204pt;"><col width="687" style="width: 515pt;"><col width="559" style="width: 419pt;"></colgroup>
+  <tbody>
+    <tr height="47" style="height: 35pt;">
+      <td height="47" class="xl67" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt; border-style: none solid solid; border-color: currentcolor windowtext windowtext; border-image: none; white-space: nowrap; text-align: center; height: 35pt;">IndianWeatherRepository.csv</td>
+      <td class="xl68" width="687" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; width: 515pt;">This file contains the source data downloaded from Kaggle</td>
+      <td class="xl77" width="559" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; color: rgb(70, 120, 134); font-size: 12pt; text-decoration: underline; font-family: &quot;Aptos Narrow&quot;, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; text-align: center; width: 419pt;"><a href="https://drive.google.com/file/d/1WU2gaQcZGCR9-GhW-aVLsW1OvDTTZ2PO/view?usp=sharing"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPrK-y05cfo5GM1Pg55QJLLirq54AByCaozg&s" width="50" height="30"/></a></td>
+    </tr>
+    <tr height="21" style="height: 16pt;">
+      <td rowspan="3" height="65" class="xl70" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt; border-style: none solid solid; border-color: currentcolor windowtext black; border-image: none; white-space: nowrap; text-align: center; height: 49pt;">Source Code.ipynb</td>
+      <td rowspan="3" class="xl71" width="687" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt; border-style: none solid solid; border-color: currentcolor windowtext black; border-image: none; width: 515pt;">This file contains the Python source code of data wrangling, data loading to tables and data rejection processes</td>
+      <td rowspan="3" class="xl74" width="559" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt; border-style: none solid solid; border-color: currentcolor windowtext black; border-image: none; text-align: center; width: 419pt;">-</td>
+    </tr>
+    <tr height="21" style="height: 16pt;">
+    </tr>
+    <tr height="23" style="height: 17pt;">
+    </tr>
+    <tr height="47" style="height: 35pt;">
+      <td height="47" class="xl67" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt; border-style: none solid solid; border-color: currentcolor windowtext windowtext; border-image: none; white-space: nowrap; text-align: center; height: 35pt;">Database Setup.docx</td>
+      <td class="xl68" width="687" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; width: 515pt;">This file contains the database configuration details that are been setup as part of this analysis</td>
+      <td class="xl77" width="559" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; color: rgb(70, 120, 134); font-size: 12pt; text-decoration: underline; font-family: &quot;Aptos Narrow&quot;, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; text-align: center; width: 419pt;"><a href="https://docs.google.com/document/d/1FJYrRqlW07cPM0plBZPTvYztKKLE3ajl/edit?usp=sharing&amp;ouid=114840663789662506255&amp;rtpof=true&amp;sd=true">https://docs.google.com/document/d/1FJYrRqlW07cPM0plBZPTvYztKKLE3ajl/edit?usp=sharing&amp;ouid=114840663789662506255&amp;rtpof=true&amp;sd=true</a></td>
+    </tr>
+    <tr height="24" style="height: 18pt;">
+      <td height="24" class="xl67" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt; border-style: none solid solid; border-color: currentcolor windowtext windowtext; border-image: none; white-space: nowrap; text-align: center; height: 18pt;">Entity Relationship Model.png</td>
+      <td class="xl68" width="687" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; width: 515pt;">This file contains the metrics formulas that are used in the project</td>
+      <td class="xl77" width="559" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; color: rgb(70, 120, 134); font-size: 12pt; text-decoration: underline; font-family: &quot;Aptos Narrow&quot;, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; text-align: center; width: 419pt;"><a href="https://drawsql.app/teams/de-28/diagrams/regional-weather"><img src="https://deals.micro-saas.co/wp-content/uploads/2021/09/DrawSQL-FS-AFFI3-1076.png" width="45" height="60"/></a></td>
+    </tr>
+    <tr height="47" style="height: 35pt;">
+      <td height="47" class="xl67" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt; border-style: none solid solid; border-color: currentcolor windowtext windowtext; border-image: none; white-space: nowrap; text-align: center; height: 35pt;">Data Visualisation.twbx</td>
+      <td class="xl68" width="687" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; width: 515pt;">This file contains the Tableau visualisations that are created as part of EDA analysis</td>
+      <td class="xl77" width="559" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; color: rgb(70, 120, 134); font-size: 12pt; text-decoration: underline; font-family: &quot;Aptos Narrow&quot;, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; text-align: center; width: 419pt;"><a href="https://public.tableau.com/app/profile/perinban.parameshwaran/viz/EDAAnalysisonIndianWeather/Myth1">https://public.tableau.com/app/profile/perinban.parameshwaran/viz/EDAAnalysisonIndianWeather/Myth1</a></td>
+    </tr>
+    <tr height="47" style="height: 35pt;">
+      <td height="47" class="xl78" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt; border-style: none solid solid; border-color: currentcolor windowtext windowtext; border-image: none; white-space: nowrap; text-align: center; height: 35pt;">Normalization Table Details.xlsx</td>
+      <td class="xl79" width="687" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; width: 515pt;">This file contains the normalization table details that are performed on the source data</td>
+      <td class="xl80" width="559" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; color: rgb(70, 120, 134); font-size: 12pt; text-decoration: underline; font-family: &quot;Aptos Narrow&quot;, sans-serif; vertical-align: bottom; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; width: 419pt;"><a href="https://docs.google.com/spreadsheets/d/1LmDfrxFcBLyQZUiiYTFK6aFexb3S06VZ/edit?usp=sharing&amp;ouid=114840663789662506255&amp;rtpof=true&amp;sd=true"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPrK-y05cfo5GM1Pg55QJLLirq54AByCaozg&s" width="50" height="30"/></a></td>
+    </tr>
+  </tbody>
+</table>
+
 *Abstract*---Weather Formalization to Forecast agricultural,
 transportation and emergency management. That being the case, there has
 been no widespread study with advanced machine learning methods to
@@ -1435,50 +1483,4 @@ no. 1, pp. 1--23, 2024.
   </tbody>
 </table>
 
-**10) OTHER DATASETS **
 
-<table border="0" cellpadding="0" cellspacing="0" width="1518" style="">
-  <thead>
-    <tr height="23" style="height: 17pt;">
-      <th>Document Name</th>
-      <th>Details</th>
-      <th>Reference Link</th>
-    </tr>
-  </thead><colgroup><col width="272" style="width: 204pt;"><col width="687" style="width: 515pt;"><col width="559" style="width: 419pt;"></colgroup>
-  <tbody>
-    <tr height="47" style="height: 35pt;">
-      <td height="47" class="xl67" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt; border-style: none solid solid; border-color: currentcolor windowtext windowtext; border-image: none; white-space: nowrap; text-align: center; height: 35pt;">IndianWeatherRepository.csv</td>
-      <td class="xl68" width="687" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; width: 515pt;">This file contains the source data downloaded from Kaggle</td>
-      <td class="xl77" width="559" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; color: rgb(70, 120, 134); font-size: 12pt; text-decoration: underline; font-family: &quot;Aptos Narrow&quot;, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; text-align: center; width: 419pt;"><a href="https://drive.google.com/file/d/1WU2gaQcZGCR9-GhW-aVLsW1OvDTTZ2PO/view?usp=sharing">https://drive.google.com/file/d/1WU2gaQcZGCR9-GhW-aVLsW1OvDTTZ2PO/view?usp=sharing</a></td>
-    </tr>
-    <tr height="21" style="height: 16pt;">
-      <td rowspan="3" height="65" class="xl70" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt; border-style: none solid solid; border-color: currentcolor windowtext black; border-image: none; white-space: nowrap; text-align: center; height: 49pt;">Source Code.ipynb</td>
-      <td rowspan="3" class="xl71" width="687" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt; border-style: none solid solid; border-color: currentcolor windowtext black; border-image: none; width: 515pt;">This file contains the Python source code of data wrangling, data loading to tables and data rejection processes</td>
-      <td rowspan="3" class="xl74" width="559" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt; border-style: none solid solid; border-color: currentcolor windowtext black; border-image: none; text-align: center; width: 419pt;">-</td>
-    </tr>
-    <tr height="21" style="height: 16pt;">
-    </tr>
-    <tr height="23" style="height: 17pt;">
-    </tr>
-    <tr height="47" style="height: 35pt;">
-      <td height="47" class="xl67" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt; border-style: none solid solid; border-color: currentcolor windowtext windowtext; border-image: none; white-space: nowrap; text-align: center; height: 35pt;">Database Setup.docx</td>
-      <td class="xl68" width="687" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; width: 515pt;">This file contains the database configuration details that are been setup as part of this analysis</td>
-      <td class="xl77" width="559" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; color: rgb(70, 120, 134); font-size: 12pt; text-decoration: underline; font-family: &quot;Aptos Narrow&quot;, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; text-align: center; width: 419pt;"><a href="https://docs.google.com/document/d/1FJYrRqlW07cPM0plBZPTvYztKKLE3ajl/edit?usp=sharing&amp;ouid=114840663789662506255&amp;rtpof=true&amp;sd=true">https://docs.google.com/document/d/1FJYrRqlW07cPM0plBZPTvYztKKLE3ajl/edit?usp=sharing&amp;ouid=114840663789662506255&amp;rtpof=true&amp;sd=true</a></td>
-    </tr>
-    <tr height="24" style="height: 18pt;">
-      <td height="24" class="xl67" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt; border-style: none solid solid; border-color: currentcolor windowtext windowtext; border-image: none; white-space: nowrap; text-align: center; height: 18pt;">Entity Relationship Model.png</td>
-      <td class="xl68" width="687" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; width: 515pt;">This file contains the metrics formulas that are used in the project</td>
-      <td class="xl77" width="559" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; color: rgb(70, 120, 134); font-size: 12pt; text-decoration: underline; font-family: &quot;Aptos Narrow&quot;, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; text-align: center; width: 419pt;"><a href="https://drawsql.app/teams/de-28/diagrams/regional-weather">https://drawsql.app/teams/de-28/diagrams/regional-weather</a></td>
-    </tr>
-    <tr height="47" style="height: 35pt;">
-      <td height="47" class="xl67" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt; border-style: none solid solid; border-color: currentcolor windowtext windowtext; border-image: none; white-space: nowrap; text-align: center; height: 35pt;">Data Visualisation.twbx</td>
-      <td class="xl68" width="687" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; width: 515pt;">This file contains the Tableau visualisations that are created as part of EDA analysis</td>
-      <td class="xl77" width="559" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; color: rgb(70, 120, 134); font-size: 12pt; text-decoration: underline; font-family: &quot;Aptos Narrow&quot;, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; text-align: center; width: 419pt;"><a href="https://public.tableau.com/app/profile/perinban.parameshwaran/viz/EDAAnalysisonIndianWeather/Myth1">https://public.tableau.com/app/profile/perinban.parameshwaran/viz/EDAAnalysisonIndianWeather/Myth1</a></td>
-    </tr>
-    <tr height="47" style="height: 35pt;">
-      <td height="47" class="xl78" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt; border-style: none solid solid; border-color: currentcolor windowtext windowtext; border-image: none; white-space: nowrap; text-align: center; height: 35pt;">Normalization Table Details.xlsx</td>
-      <td class="xl79" width="687" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; width: 515pt;">This file contains the normalization table details that are performed on the source data</td>
-      <td class="xl80" width="559" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; color: rgb(70, 120, 134); font-size: 12pt; text-decoration: underline; font-family: &quot;Aptos Narrow&quot;, sans-serif; vertical-align: bottom; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; width: 419pt;"><a href="https://docs.google.com/spreadsheets/d/1LmDfrxFcBLyQZUiiYTFK6aFexb3S06VZ/edit?usp=sharing&amp;ouid=114840663789662506255&amp;rtpof=true&amp;sd=true">https://docs.google.com/spreadsheets/d/1LmDfrxFcBLyQZUiiYTFK6aFexb3S06VZ/edit?usp=sharing&amp;ouid=114840663789662506255&amp;rtpof=true&amp;sd=true</a></td>
-    </tr>
-  </tbody>
-</table>

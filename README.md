@@ -1,6 +1,6 @@
 <h1> INDIAN WEATHER DATA ANALYSIS </h1>
 
-** DATA SOURCES **
+<p>Data Sources</p>
 
 <table border="0" cellpadding="0" cellspacing="0" width="1518" style="">
   <thead>
@@ -28,7 +28,9 @@
     <tr height="47" style="height: 35pt;">
       <td height="47" class="xl67" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt; border-style: none solid solid; border-color: currentcolor windowtext windowtext; border-image: none; white-space: nowrap; text-align: center; height: 35pt;">Database Setup.docx</td>
       <td class="xl68" width="687" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; width: 515pt;">This file contains the database configuration details that are been setup as part of this analysis</td>
-      <td class="xl77" width="559" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; color: rgb(70, 120, 134); font-size: 12pt; text-decoration: underline; font-family: &quot;Aptos Narrow&quot;, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; text-align: center; width: 419pt;"><a href="https://docs.google.com/document/d/1FJYrRqlW07cPM0plBZPTvYztKKLE3ajl/edit?usp=sharing&amp;ouid=114840663789662506255&amp;rtpof=true&amp;sd=true">https://docs.google.com/document/d/1FJYrRqlW07cPM0plBZPTvYztKKLE3ajl/edit?usp=sharing&amp;ouid=114840663789662506255&amp;rtpof=true&amp;sd=true</a></td>
+      <td class="xl77" width="559" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; color: rgb(70, 120, 134); font-size: 12pt; text-decoration: underline; font-family: &quot;Aptos Narrow&quot;, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; text-align: center; width: 419pt;"><a href="https://docs.google.com/document/d/1FJYrRqlW07cPM0plBZPTvYztKKLE3ajl/edit?usp=sharing&amp;ouid=114840663789662506255&amp;rtpof=true&amp;sd=true"><img src="https://i.pinimg.com/736x/17/85/cb/1785cbc8818b4e702f6064d439f152ad.jpg" width="60" height="40"/>
+
+</a></td>
     </tr>
     <tr height="24" style="height: 18pt;">
       <td height="24" class="xl67" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt; border-style: none solid solid; border-color: currentcolor windowtext windowtext; border-image: none; white-space: nowrap; text-align: center; height: 18pt;">Entity Relationship Model.png</td>
@@ -38,7 +40,7 @@
     <tr height="47" style="height: 35pt;">
       <td height="47" class="xl67" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt; border-style: none solid solid; border-color: currentcolor windowtext windowtext; border-image: none; white-space: nowrap; text-align: center; height: 35pt;">Data Visualisation.twbx</td>
       <td class="xl68" width="687" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; width: 515pt;">This file contains the Tableau visualisations that are created as part of EDA analysis</td>
-      <td class="xl77" width="559" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; color: rgb(70, 120, 134); font-size: 12pt; text-decoration: underline; font-family: &quot;Aptos Narrow&quot;, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; text-align: center; width: 419pt;"><a href="https://public.tableau.com/app/profile/perinban.parameshwaran/viz/EDAAnalysisonIndianWeather/Myth1">https://public.tableau.com/app/profile/perinban.parameshwaran/viz/EDAAnalysisonIndianWeather/Myth1</a></td>
+      <td class="xl77" width="559" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; color: rgb(70, 120, 134); font-size: 12pt; text-decoration: underline; font-family: &quot;Aptos Narrow&quot;, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; border-image: none; text-align: center; width: 419pt;"><a href="https://public.tableau.com/app/profile/perinban.parameshwaran/viz/EDAAnalysisonIndianWeather/Myth1"><img src="https://i.pinimg.com/originals/86/35/88/863588a71e465cc3aa5d822c0feafea9.png" width="60" height="40"/></a></td>
     </tr>
     <tr height="47" style="height: 35pt;">
       <td height="47" class="xl78" style="padding-top: 1px; padding-right: 1px; padding-left: 1px; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: middle; border-width: medium 1pt 1pt; border-style: none solid solid; border-color: currentcolor windowtext windowtext; border-image: none; white-space: nowrap; text-align: center; height: 35pt;">Normalization Table Details.xlsx</td>
@@ -47,6 +49,8 @@
     </tr>
   </tbody>
 </table>
+
+<hr>
 
 *Abstract*---Weather Formalization to Forecast agricultural,
 transportation and emergency management. That being the case, there has
